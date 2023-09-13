@@ -1,0 +1,102 @@
+.divider {
+  height: 4px;
+  width: 60px;
+  background-color:#fbfbfb;
+  margin-top: 10px;
+  margin-bottom: 2em;
+}
+
+.portfolioSection {
+  background: url('../../img/Yellow\ and\ black.jpeg') no-repeat center center fixed;
+  background-size: cover;
+  filter: grayscale(100%);
+  transition: filter 0.5s ease-in-out;
+}
+/* Agregamos el fondo blanco y negro a la sección de tu portfolio */
+/* Agregamos una clase para la animación de paralaje */
+
+/* Cuando el mouse se mueve, aplicamos la animación de paralaje */
+.portfolioSection:hover {
+  filter: grayscale(0%);
+}
+
+.portfolioSection:hover .parallax-bg {
+  transform: translate(-10px, -10px); /* Ajusta estos valores según tus preferencias */
+}
+
+.parallax-bg {
+  transform: translate(0, 0);
+  transition: transform 0.5s ease-in-out;
+}
+
+.portfolioHeadings {
+  width: 80vw;
+  padding: 6em 2em 2em 2em;   
+}
+
+.portfolioHeadings h2 {
+  font-size: 1.5em;
+}
+.portfolio {
+    width: 100%;
+    background-color: rgb(27, 27, 27);
+    color: #fff;
+  }
+.portfolio {
+    width: 100%;
+    background-color: rgb(27, 27, 27);
+    color: #fff;
+}
+
+ 
+.portfolioHeadings {
+    width: 80vw;
+    padding: 6em 2em 2em 2em;
+}
+
+.portfolioHeadings h2 {
+    font-size: 1.5em;
+ 
+  
+
+}
+
+
+
+  
+
+
+
+  .background {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, rgba(0, 0, 0, 0.2), rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.2));
+      pointer-events: none;
+      z-index: -1;
+  }
+  
+  #particles {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: -1;
+  }
+  
+  .particle {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.5); /* Color de las partículas */
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  
+  
+  
+  
+ 

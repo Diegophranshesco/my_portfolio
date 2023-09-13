@@ -1,0 +1,90 @@
+.divider {
+  height: 4px;
+  width: 60px;
+  background-color:#fbfbfb;
+  margin-top: 10px;
+  margin-bottom: 2em;
+}
+
+.contactSection {
+  padding: 3em;
+ 
+}
+.contact {
+
+  background-image: url('../../img/line.jpeg'); /* Reemplaza con la ruta de tu imagen */
+  background-size: cover;
+  transition: transform 0.2s ease-in-out;
+}
+.contactHeading {
+  width: 80vw;
+  padding: 6em 2em 2em 2em;
+}
+
+.containerContact {
+  margin: 35%;
+  margin-top: 10em;
+}
+
+.contactSection img {
+  width: 750px;
+  height: 700px;
+  bottom: 0px;
+}
+.formGroup {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin-top: 2em;
+  }
+  
+  .formGroup textarea {
+    height: 150px;
+    padding: 1.5em;
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
+  }
+  
+  .formGroup .input {
+    padding: 10px 20px;
+    margin-bottom: 1em;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+  }
+  
+  .formGroup .btnSubmit {
+    padding: 10px 20px;
+    margin: 1em;
+    border-radius: 20px;
+    border: none;
+    text-transform: uppercase;
+    background-color: aqua;
+  }
+  
+  .formGroup .btnSubmit {
+    color: rgb(0, 0, 0);
+    background-color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .formGroup .btnSubmit:hover {
+    color: #fff;
+    box-shadow: 0.5px 3px 4px 0.5px #fff;
+    background-color: rgb(0, 0, 0);
+    transition: ease-in .3s;
+  
+  }
+  .formGroup .btnSubmit:active {
+    color: rgb(0, 0, 0);
+    box-shadow:  -2px -1px 3px 3px gold;
+    background-color: rgb(0, 0, 0);
+    transition: ease-in .1s;
+  
+  }

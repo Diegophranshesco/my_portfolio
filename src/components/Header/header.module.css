@@ -1,0 +1,98 @@
+/* Estilos para ocultar las letras individualmente */
+
+.jump {
+  animation: jump 0.5s ease infinite alternate;
+}
+
+@keyframes jump {
+  0% {
+      transform: translateY(0);
+  }
+  100% {
+      transform: translateY(-5px);
+  }
+}
+
+
+
+.navbar h2  {
+    display: inline-block;
+    /* overflow: hidden; */
+    /* vertical-align: bottom; */
+    text-transform: capitalize;
+    
+  }
+.navbar h2 span {
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: bottom;
+    text-transform: capitalize;
+    
+  }
+
+  /* Animación para mostrar las letras */
+.navbar h2 span.active {
+    animation: revealText 2s forwards;
+    animation-delay: 0.2s;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+    z-index: 1000;
+    background: url(../../img/necessary\ disorder_\ Photo\ \(1\).gif)
+    no-repeat center center fixed;
+    background-size: cover;
+    width: 100%; 
+    position: fixed;
+  }
+  
+  .brand {
+    margin-top: -9px;
+  }
+  
+  .brand span {
+    color: aquamarine;    
+  }
+
+  
+.menu {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+}
+
+.menu li {
+  list-style: none;
+}
+
+/* .menu .active {
+  color: rgb(0, 0, 0);
+} */
+
+ a {
+  color: rgb(229, 255, 0);
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+
+
+.menu a:hover {
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  border-radius: 12px;
+  color: #fff;
+  box-shadow: 0.5px 2px 2px 0.5px #fff;
+  transition: ease-in .3s;
+}
+
+.menu a:active { /* Aplicar el mismo estilo tanto en hover como en active */
+color: rgb(0, 0, 0);
+padding: 10px 20px;
+border-radius: 12px;
+color: #000;
+box-shadow:  -2px -1px 3px 3px gold;
+transition: ease-in .1s;
+}
